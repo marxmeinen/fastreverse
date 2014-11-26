@@ -1,0 +1,8 @@
+recover.index:
+  path: /
+  defaults: { _controller: 'Unilever\Controller\Recover::indexAction' }
+  
+recover.reset:
+  path: /reset
+  defaults: { _controller: 'Unilever\Controller\Recover::resetAction' }
+    

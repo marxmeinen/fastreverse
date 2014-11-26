@@ -1,0 +1,12 @@
+results.index:
+  path: /
+  defaults: { _controller: 'Unilever\Controller\Result::indexAction' }
+  
+results.full:
+  path: /full/{inputDate}/{inputRole}
+  defaults: { _controller: 'Unilever\Controller\Result::indexFullTableAction' }
+
+results.search:
+  path: /search
+  defaults: { _controller: 'Unilever\Controller\Result::searchAction' }
+  

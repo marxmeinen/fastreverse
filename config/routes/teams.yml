@@ -1,0 +1,20 @@
+teams.index:
+  path: /
+  defaults: { _controller: 'Unilever\Controller\Team::indexAction' }
+
+teams.create:
+  path: /create
+  defaults: { _controller: 'Unilever\Controller\Team::createAction' }
+  
+teams.page:
+  path: /{page}
+  defaults: { _controller: 'Unilever\Controller\Team::indexAction' }
+  
+teams.edit:
+  path: /edit/{team_pk}
+  defaults: { _controller: 'Unilever\Controller\Team::editAction' }
+  
+teams.delete:
+  path: /delete/{team_pk}
+  defaults: { _controller: 'Unilever\Controller\Team::deleteAction' }
+  

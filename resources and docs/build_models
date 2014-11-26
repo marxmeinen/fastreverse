@@ -1,0 +1,3 @@
+cd ../
+rm -r src/Unilever/Model/*
+vendor/propel/propel/bin/propel build --output-dir="src"

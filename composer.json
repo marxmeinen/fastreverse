@@ -1,0 +1,26 @@
+{
+    "name": "fastreverse/fastreverse",
+    "type": "library",
+    "description": "Refresh the database schema and rebuild models in once.",
+    "keywords": ["reverse","schema","models"],
+    "homepage": "http://www.marx.media",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marx Meinen",
+            "email": "marx@marxmedia.nl",
+            "homepage": "http://www.marx.media",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "silex/silex": "*",
+        "propel/propel": "2.0.0-alpha3",
+		"propel/propel-service-provider": "2.x-dev"
+    },
+    "autoload": {
+        "psr-0": {
+            "Fastreverse":        "src"
+        }
+    }
+}

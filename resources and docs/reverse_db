@@ -1,0 +1,3 @@
+cd ../
+rm schema.xml;
+vendor/propel/propel/bin/propel reverse "mysql:host=unilever.quickwins.nl;dbname=unilever;user=unilever;password=h9PtXfnuTnEqwCHf" --database-name="unilever" --output-dir="./";

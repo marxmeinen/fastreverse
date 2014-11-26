@@ -1,0 +1,44 @@
+questions.updatevaluelist:
+  path: /updatevaluelist
+  defaults: { _controller: 'Unilever\Controller\Question::updatevaluelistAction' }
+
+questions.getvaluelist:
+  path: /getvaluelist
+  defaults: { _controller: 'Unilever\Controller\Question::getvaluelistAction' }  
+
+questions.index:
+  path: /
+  defaults: { _controller: 'Unilever\Controller\Question::indexAction' }
+
+questions.create:
+  path: /create
+  defaults: { _controller: 'Unilever\Controller\Question::createAction' }
+  
+questions.update:
+  path: /update
+  defaults: { _controller: 'Unilever\Controller\Question::updateAction' }
+
+questions.archive:
+  path: /archive
+  defaults: { _controller: 'Unilever\Controller\Question::archiveAction' }
+  
+questions.gettargets:
+  path: /gettargets
+  defaults: { _controller: 'Unilever\Controller\Question::getTargetsAction' }
+  
+questions.getgroups:
+  path: /getgroups
+  defaults: { _controller: 'Unilever\Controller\Question::getGroupsAction' }
+  
+questions.deletegroup:
+  path: /deletegroup
+  defaults: { _controller: 'Unilever\Controller\Question::deleteGroupAction' }
+  
+questions.getquestion:
+  path: /getquestion
+  defaults: { _controller: 'Unilever\Controller\Question::getquestionAction' }
+  
+questions.delete:
+  path: /delete/{question_pk}
+  defaults: { _controller: 'Unilever\Controller\Question::deleteAction' }
+  

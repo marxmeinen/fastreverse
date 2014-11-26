@@ -1,0 +1,19 @@
+users.index:
+  path: /
+  defaults: { _controller: 'Unilever\Controller\User::indexAction' }
+  
+users.create:
+  path: /create
+  defaults: { _controller: 'Unilever\Controller\User::createAction' }
+  
+users.page:
+  path: /{page}
+  defaults: { _controller: 'Unilever\Controller\User::indexAction' }
+  
+users.edit:
+  path: /edit/{user_pk}
+  defaults: { _controller: 'Unilever\Controller\User::editAction' }
+   
+users.delete:
+  path: /delete/{user_pk}
+  defaults: { _controller: 'Unilever\Controller\User::deleteAction' }
