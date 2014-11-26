@@ -19,8 +19,6 @@
 		"propel/propel-service-provider": "2.x-dev"
     },
     "autoload": {
-        "psr-0": {
-            "Fastreverse":        "src"
-        }
+        "psr-4": {"Fastreverse\\": "src/Fastreverse"}
     }
 }
